@@ -3,7 +3,7 @@
 .header nav{
     display: flex;
     
-        padding: 15px;
+        /* padding: 15px; */
         margin: 20px;
         float: right;
         font-family: 'Garamond Sans';
@@ -40,9 +40,18 @@ a{
 
 /* End of header styling */
 
+
+/* Picture Styling */
+
 .allenPic {
     max-width: 15%;
     height: auto;
   
 
+}
+/* End of Pic Styling */
+
+
+.main{
+    background-color: rgb(173, 46, 46);
 }
