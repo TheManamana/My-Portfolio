@@ -1,0 +1,35 @@
+.header nav{
+    display: flex;
+    
+        padding: 15px;
+        margin: 20px;
+        float: right;
+        font-family: 'Garamond Sans';
+        font-size: 20px;
+    
+
+}
+
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.header {
+    
+    background-color: rgb(25, 25, 31);
+    color: rgb(184, 203, 219);
+}
+
+a{
+    color: rgb(184, 203, 219);
+
+}
+
+.header h1 {
+    font-family: 'Garamond';
+    display: inline-block;
+    font-size: 48px;
+    margin-left: 50px;
+}
