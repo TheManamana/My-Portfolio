@@ -22,8 +22,10 @@
     
     background-color: rgb(25, 25, 31);
     color: rgb(185,126,64);
-    border-top-left-radius: 15%;
-    border-top-right-radius: 15%;
+    /* border-top-left-radius: 15%; */
+    /* border-top-right-radius: 15%; */
+    
+
 }
 
 a{
@@ -46,12 +48,36 @@ a{
 .allenPic {
     max-width: 15%;
     height: auto;
+    margin-left: 20px;
   
 
 }
 /* End of Pic Styling */
 
 
-.main{
+
+/* Main Background color  */
+.body {
+    background-color: rgb(93, 80, 170);
+}
+
+/* Main Styling  */
+/* .main{
     background-color: rgb(173, 46, 46);
+    height: 100%;
+} */
+
+.About-Me {
+    background-color: brown;
+}
+
+.About-Me p{
+    float: right;
+}
+
+
+h2 {
+    font-size:  36px;
+    margin-left: 25px;
+    font-family: 'Garamond';
 }
