@@ -1,3 +1,5 @@
+
+/* Beginning of header styling */
 .header nav{
     display: flex;
     
@@ -19,7 +21,9 @@
 .header {
     
     background-color: rgb(25, 25, 31);
-    color: rgb(184, 203, 219);
+    color: rgb(185,126,64);
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
 }
 
 a{
@@ -32,4 +36,13 @@ a{
     display: inline-block;
     font-size: 48px;
     margin-left: 50px;
+}
+
+/* End of header styling */
+
+.allenPic {
+    max-width: 15%;
+    height: auto;
+  
+
 }
