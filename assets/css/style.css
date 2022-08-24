@@ -1,7 +1,8 @@
 
 
 :root {
-    --primary: rgb(25, 25, 31);
+    --primary: rgba(68, 88, 119, 1);
+    
     
   }
 /* Beginning of header styling */
@@ -80,29 +81,53 @@ a{
     
     
 }
+/* .section > h2 {
+    flex: 0 0 20%;
+} */
 
 #About-Me{
     height: 300px;
 }
 .sectionHeader{
+    
     border-right: 5px solid black;
     margin: 25px;
     padding:25px;
 }
 
-.projects {
-    display: flex;
+.rightBody {
+    
+  
+  width:750px;
+  display:flex;
+  flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
   
 }
 
 .boxes{
-   
+    border: 5px solid var(--secondary);
+    background-color: var(--primary);
+    color: var(--tertiary);
+    display: flex;
+    align-items: flex-end;
+    
+    margin: 10px;
+    background-blend-mode: soft-light;
+    background-size: 150%;
+    transition: all 0.5s;
+    width: 370px;
+    height:100px;
+    
+    
 }
+.boxes:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
 
 .portfolio{
     background-image: url("../images/Portfolio.jpg");
+    width: 750px;
 }
 .passgen{
     background-image: url("../images/Password.jpg");
@@ -122,6 +147,7 @@ h2 {
     font-size:  36px;
     margin-left: 25px;
     font-family: 'Garamond';
-    width: 250px;
+    
     text-align: right;
+    flex: 0 0 20%;
 }
