@@ -1,4 +1,9 @@
 
+
+:root {
+    --primary: rgb(25, 25, 31);
+    
+  }
 /* Beginning of header styling */
 .header nav{
     display: flex;
@@ -36,7 +41,7 @@ a{
 .header h1 {
     font-family: 'Garamond';
     display: inline-block;
-    font-size: 48px;
+    font-size: 60px;
     margin-left: 50px;
 }
 
@@ -46,8 +51,8 @@ a{
 /* Picture Styling */
 
 .allenPic {
-    max-width: 15%;
-    height: auto;
+    /* max-width: 400px;  */
+    /* height: auto; */
     margin-left: 20px;
   
 
@@ -57,27 +62,66 @@ a{
 
 
 /* Main Background color  */
-.body {
-    background-color: rgb(93, 80, 170);
-}
+
 
 /* Main Styling  */
-/* .main{
-    background-color: rgb(173, 46, 46);
+.main{
+    margin-top: 25px;
     height: 100%;
-} */
-
-.About-Me {
-    background-color: brown;
 }
 
-.About-Me p{
-    float: right;
+.section {
+    
+    display:flex;
+    flex-direction: row;
+    height: auto;
+    
+    
+    
+    
 }
 
+#About-Me{
+    height: 300px;
+}
+.sectionHeader{
+    border-right: 5px solid black;
+    margin: 25px;
+    padding:25px;
+}
+
+.projects {
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+.boxes{
+   
+}
+
+.portfolio{
+    background-image: url("../images/Portfolio.jpg");
+}
+.passgen{
+    background-image: url("../images/Password.jpg");
+}
+.quiz {
+    background-image: url("../images/Quiz.jpg");
+}
+.camp{
+    background-image: url("../images/Camping.jpg");
+
+}
+.stock{
+    background-image: url("../images/Stockpicker.jpg")
+}
 
 h2 {
     font-size:  36px;
     margin-left: 25px;
     font-family: 'Garamond';
+    width: 250px;
+    text-align: right;
 }
