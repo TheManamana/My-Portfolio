@@ -9,7 +9,7 @@
 .header nav{
     display: flex;
     
-        /* padding: 15px; */
+        
         margin: 20px;
         float: right;
         font-family: 'Garamond Sans';
@@ -34,6 +34,95 @@
 
 }
 
+
+.flexbox-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.section {
+    
+    display:flex;
+    flex-direction: row;
+    align-items: stretch;
+    margin: 20px;
+    
+
+    
+}
+
+.leftBody{
+    display:flex;
+    border-right: 5px solid black;
+    
+    padding:25px;
+    flex-direction: row;
+    justify-content: right;
+    height: 1;
+    flex: 0 0 20%;
+
+}
+.rightBody {
+    
+  
+    
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 15px;
+    justify-content: center;
+
+    max-width: 1250px;
+    
+    
+    
+  }
+  #workBody{
+    /* height: 800px;
+    width: 900px;  */
+  }
+
+
+  .aboutBox{
+    
+  }
+.workBox{
+    display: flex;
+    flex-direction: row;
+    border: 5px solid  rgb(113, 162, 235);
+    background-color: var(--primary);
+    color: var(--tertiary);
+    
+    min-height: 150px;
+    /* max-height: 150px;  */
+
+    
+    max-width: 1200px;
+    align-items: flex-end;
+
+    margin:20px;
+    flex-grow: 1;
+    
+    
+    background-blend-mode: soft-light;
+    background-size: 150%;
+    transition: all 0.5s;
+
+    height:auto;
+    width: 1;
+    
+    
+    
+    
+}
+.contactBox{
+    padding:20px;
+    
+}
+
 a{
     color: rgb(184, 203, 219);
 
@@ -46,101 +135,70 @@ a{
     margin-left: 50px;
 }
 
-/* End of header styling */
 
-
-/* Picture Styling */
 
 .allenPic {
-    /* max-width: 400px;  */
-    /* height: auto; */
+    max-width: 300px;  
+     height: auto;
     margin-left: 20px;
   
 
 }
-/* End of Pic Styling */
 
-
-
-/* Main Background color  */
-
-
-/* Main Styling  */
-.main{
-    margin-top: 25px;
-    height: 100%;
-}
-
-.section {
-    
-    display:flex;
-    flex-direction: row;
-    height: auto;
-    
-    
-    
-    
-}
-/* .section > h2 {
-    flex: 0 0 20%;
-} */
 
 #About-Me{
-    height: 300px;
-}
-.sectionHeader{
     
-    border-right: 5px solid black;
-    margin: 25px;
-    padding:25px;
 }
 
-.rightBody {
-    
-  
-  width:750px;
-  display:flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  
-}
-
-.boxes{
-    border: 5px solid var(--secondary);
-    background-color: var(--primary);
-    color: var(--tertiary);
+#aboutMe{
     display: flex;
-    align-items: flex-end;
+    flex-direction: row;
     
-    margin: 10px;
-    background-blend-mode: soft-light;
-    background-size: 150%;
-    transition: all 0.5s;
-    width: 370px;
-    height:100px;
-    
+  
+   
     
 }
-.boxes:hover {
+
+#about{
+    max-width: 700px;
+    justify-content: center;
+    padding: 25px;
+}
+
+
+#camp{
+    max-width: 1100;
+    background-position: 50% 75%;
+}
+
+.workBox:hover {
     background-color: rgba(0, 0, 0, 0.3);
   }
 
 .portfolio{
     background-image: url("../images/Portfolio.jpg");
-    width: 750px;
+    
+    width: 500px;
+    background-position: 25% 70%;
 }
 .passgen{
     background-image: url("../images/Password.jpg");
+    width: 500px;
 }
 .quiz {
     background-image: url("../images/Quiz.jpg");
+    width: 500px;
+    background-position: 25% 50%;
 }
 .camp{
     background-image: url("../images/Camping.jpg");
+    width: 800px;
+    height: 500px;
 
 }
 .stock{
-    background-image: url("../images/Stockpicker.jpg")
+    background-image: url("../images/Stockpicker.jpg");
+    width: 500px;
 }
 
 h2 {
@@ -148,6 +206,13 @@ h2 {
     margin-left: 25px;
     font-family: 'Garamond';
     
-    text-align: right;
-    flex: 0 0 20%;
+    
+    
+}
+h3{
+    background-color: rgb(113, 162, 235);
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: 'Garamond';
+    font-size:  30px;
 }
