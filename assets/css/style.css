@@ -191,10 +191,11 @@ a{
     background-position: 25% 50%;
 }
 .camp{
-    background-image: url("../images/Camping.jpg");
+    background-image: url("../images/ConnectPhoto.png");
     width: 800px;
     height: 500px;
-
+    background-position: 40% 50%;
+    background-color: rgba(0, 0, 0, 0.3);
 }
 .stock{
     background-image: url("../images/Stockpicker.jpg");
